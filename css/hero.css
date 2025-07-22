@@ -1,0 +1,101 @@
+/* Estilos da seção hero */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background-color: var(--hero-bg);
+  background-image: radial-gradient(var(--grid-color) 1px, transparent 1px);
+  background-size: 20px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.kit-tag {
+  display: inline-block;
+  background-color: rgba(200, 16, 46, 0.1);
+  color: var(--text);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.possibilities {
+  color: var(--primary);
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero p {
+  margin: 1.5rem auto;
+  font-size: 1.25rem;
+  color: var(--muted);
+  max-width: 700px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn-primary {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  background-color: var(--button-primary);
+  color: white;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--button-primary-hover);
+}
+
+.hero-divider {
+  margin: 3rem auto;
+  width: 100px;
+  height: 8px;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='8' viewBox='0 0 100 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 4C1 4 20 1 50 1C80 1 99 4 99 4C99 4 80 7 50 7C20 7 1 4 1 4Z' stroke='%23C8102E' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.tech-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text);
+  font-size: 0.875rem;
+}
+
+.tech-icon img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}

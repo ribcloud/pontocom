@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PontoCom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <!-- CSS Modularizado -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <!-- Componentes HTML -->
+  <header data-component="header"></header>
+
+  <section class="hero" data-component="hero"></section>
+
+  <section class="section" id="sobre" data-component="about"></section>
+
+  <section class="section" id="servicos" data-component="services"></section>
+
+  <section class="section" id="planos" data-component="plans"></section>
+
+  <section class="section" id="contato" data-component="contact"></section>
+
+  <footer class="footer" data-component="footer"></footer>
+  
+  <!-- Script para carregar componentes -->
+  <script src="js/component-loader.js"></script>
+</body>
+</html>

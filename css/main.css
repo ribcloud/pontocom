@@ -1,0 +1,59 @@
+/* Variáveis globais e estilos base */
+:root {
+  --primary: #C8102E;
+  --primary-light: #E21E34;
+  --button-primary: #C8102E;
+  --button-primary-hover: #E21E34;
+  --background: #ffffff;
+  --header-bg: #f0f7f8;  /* Fundo azul-esverdeado muito claro */
+  --hero-bg: #f0f7f8;    /* Mesmo fundo para o hero */
+  --navbar-bg: #e8f0f2;  /* Um pouco mais escuro para o container da navbar */
+  --navbar-hover: #e0eaec;
+  --text: #2b2b2b;
+  --text-nav: #4B5563;
+  --muted: #666666;
+  --shadow: rgba(0, 0, 0, 0.05);
+  --border-light: #E5E7EB;
+  --border-radius: 20px;
+  --border-radius-sm: 12px;
+  --border-radius-lg: 30px;
+  --grid-color: rgba(0, 0, 0, 0.08); /* Cor dos pontos da grade mais visível */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Estilos de botões globais */
+.btn {
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Ícones para dropdown e links externos */
+.icon-dropdown::after {
+  content: "▼";
+  font-size: 0.6rem;
+  margin-left: 0.25rem;
+  vertical-align: middle;
+}
+
+.icon-external::after {
+  content: "↗";
+  font-size: 0.8rem;
+  margin-left: 0.25rem;
+  vertical-align: middle;
+}
