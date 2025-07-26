@@ -5,16 +5,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: var(--header-bg);
-  background-image: radial-gradient(var(--grid-color) 1px, transparent 1px);
-  background-size: 20px 20px;
-  box-shadow: 0 1px 3px var(--shadow);
   width: 100%;
-}
-
-body {
-  background-color: var(--header-bg);
-  background-image: radial-gradient(var(--grid-color) 1px, transparent 1px);
-  background-size: 20px 20px;
 }
 
 .header-container {
@@ -74,6 +65,7 @@ body {
     transform: translateX(-50%) translateY(-100px);
     opacity: 0;
   }
+
   100% {
     transform: translateX(-50%) translateY(0);
     opacity: 1;
@@ -129,7 +121,8 @@ body {
 .btn-primary {
   text-decoration: none;
   color: var(--primary);
-  font-weight: 900 !important; /* Forçando o negrito máximo */
+  font-weight: 900 !important;
+  /* Forçando o negrito máximo */
   font-size: 0.9rem;
   transition: all 0.3s ease;
   position: relative;
